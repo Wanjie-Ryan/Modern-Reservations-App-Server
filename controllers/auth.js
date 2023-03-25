@@ -56,6 +56,8 @@ const login = async(req, res, next)=>{
             httpOnly:true,
         }).status(StatusCodes.OK).json(userObj)
 
+        // login page
+
     }
 
     catch(err){
